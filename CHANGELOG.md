@@ -1,5 +1,10 @@
 - Keep a Changelog
 - https://keepachangelog.com/en/1.1.0/
+
+## [1.0.2] - 2024-09-22
+### Added
+- Add spring security.
+
 ## [1.0.1] - 2024-09-22
 ### Added
 - Use a shell script to build a Docker image and start a container.
