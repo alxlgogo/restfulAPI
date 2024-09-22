@@ -12,8 +12,8 @@ public class ProductController {
 
     @GetMapping("/products")
     public String product() {
-        Product book = new Product(1L, "Book");
-        Product pen = new Product(2L, "Pen");
+        Product book = new Product(1L, "Spring Security");
+        Product pen = new Product(2L, "AWS");
         List<Product> products = Arrays.asList(book, pen);
         return products.toString();
     }
